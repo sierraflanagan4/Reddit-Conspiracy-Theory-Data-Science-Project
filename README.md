@@ -42,4 +42,6 @@ In this file, the comments are converted from a .csv file into a corpus object, 
 
 Also in this file, the Document Feature matrix is used to vizualize the different sentiment scores of the Conspiracy comments and News comments separately, as well as comparing the Coleman-Liau readability index for the two. 
 
-## Machine Learning
+## MachineLearningClassificationModels.R
+
+In this file, the document feature matrix is used to build multiple different Machine Learning Classification Models to categorize Reddit comments as relating to news or conspiracy original posts. Different training and testing subsets are created by partitioning the data. Then, Naive Bayes, Support Vector Machine, and K-Nearest Neighbor algorithms are implemented to create the machine learning models. For each of the algorithms, a confusion matrix is generated to assess the overall model performance. 
